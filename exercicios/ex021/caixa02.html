@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: dimgrey;
+            margin: 0;
+        }
+        header{
+            background-color:rgb(192, 232, 245);
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 4px 4px 9px 1px;
+        }
+        article{
+            background-color: bisque;
+        }
+        nav{
+            background-color: dimgrey;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.678);
+        }
+        
+        
+        
+        
+        nav,a{
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 20px;
+            
+        }
+        nav,a:hover{
+            text-decoration: overline;
+        }
+        article,aside{
+            background-color: cadetblue;
+        }
+        footer{
+            text-align: center;
+            padding: 4px;
+            background-color: black;
+            color:white   
+        }
+        footer p{
+            padding: 0;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Meu Site</h1>
+       <nav>
+        <a href="#">link 1</a>
+        <a href="#">link 2</a>
+        <a href="#">link 3</a>
+        <a href="#">link 4</a>
+        <a href="#">link 5</a>
+       </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Tecnologia, esportes</p>
+        </section>
+        <section id="noticias">
+            
+           <article>
+            <aside>
+                <h2>Noticias sobre a italia</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur repudiandae debitis, neque itaque nemo, quod possimus nisi voluptate dolorem voluptates quisquam aperiam soluta est modi repellendus sapiente molestiae fuga tempora!</p>
+                <p>artigo escrito por Fábio Santos</p>
+            </aside>
+           </article>
+        </section>
+    </main>
+
+    <footer>
+       <p>Desenvolvido por Fábio Santos</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

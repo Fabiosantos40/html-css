@@ -1,0 +1,31 @@
+
+
+body{
+    background-color: rgb(134, 238, 160);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+   background-color: rgba(0, 0, 0, 0.685);
+    color: rgb(12, 180, 82);
+}
+#principal{
+    text-align: center;
+     color: darkorange;
+     background-color: aqua;
+ }
+
+h2{
+   color: rgb(93, 180, 238);
+}
+.lody{
+    background-color: rgba(0, 0, 0, 0.685);
+    color: crimson;
+}
+.intermediario{
+    color:black
+}
+.avançado{
+   background-color: rgba(0, 0, 0, 0.685);
+    color:yellow
+    
+}

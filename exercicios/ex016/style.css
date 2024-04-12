@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: aqua;
+}
+main{
+    background-color: rgb(146, 65, 65);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: chartreuse;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    padding: 10px;
+}
+
+h2{
+    color: chocolate;
+    text-shadow: 2px 2px 3px black;
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+}
