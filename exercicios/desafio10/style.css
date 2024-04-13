@@ -103,6 +103,8 @@ main h2{
 }
 main p{
     margin: 15px 0px 15px 0px;
+    background-color: rgba(105, 105, 105, 0.205);
+    border-radius: 10px;
     text-align: justify;
     text-indent: 30px;
     font-size: 1em;
@@ -127,6 +129,9 @@ main a:hover{
 
 main img{
     width: 100%;
+    border-radius: 10px;
+    background-color: rgba(222, 184, 135, 0.24);
+    
 }
 div.video{
     background-color: var(--cor5);
