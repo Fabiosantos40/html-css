@@ -55,14 +55,34 @@ section.normal{
     color: black;
 
 }
+section p{
+    padding-bottom: 2em;
+}
+
 section.imagem{
     background-color: rgba(0, 0, 0, 0.233);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.267);
+    text-shadow: 1px 1px 0px black;
+
 }
+section#img01{
+background-image: url(/exercicios/desafio012/pasta/flowers-19830_640.jpg);
+background-position: right center;
+}
+
+section#img02{
+background-image: url(/exercicios/desafio012/pasta/feather-3237961_640.jpg);
+background-position: right center;
+}
+
 footer{
     background-color: black;
     text-align: center;
