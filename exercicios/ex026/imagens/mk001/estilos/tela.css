@@ -1,0 +1,31 @@
+/* estilos para telas*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+header{
+    background-color: lightgrey;
+}
+header h1{
+    text-align: center;
+}
+ul li{
+    text-align: center;
+}
+menu li{
+    background-color: rgb(63, 58, 58);
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px;
+}
+article{
+    width: 650px;
+    display: block;
+    margin: auto;
+}
