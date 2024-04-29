@@ -1,6 +1,35 @@
 
 /*Todas as demais Midias*/
 
-@media print {
+@media print {/*impressao*/
     
+}
+@media screen and(min-width: 768px) and(max-width: 992px) {/*tablet*/
+    body{
+        background-image: url(../back-tablet.jpg);
+    }
+} 
+img#phone{display: block;}
+img#tablet{display: block;}
+img#print{display: none;}
+img#pc{display: none;}
+img#tv{display: none;}   
+@media screen and(min-width: 992px) and(max-width: 1200px){/*desktop*/
+    body{
+        background-image: url(../back-pc.jpg);
+    }
+    img#phone{display: block;}
+    img#tablet{display: block;}
+    img#print{display: none;}
+    img#pc{display: block;}
+    img#tv{display: none;}   
+}
+@media screen and(min-width: 1200px) {/*Grandes telas*/
+    body{
+        background-image: url(../back-tv.jpg);
+    } img#phone{display: block;}
+    img#tablet{display: block;}
+    img#print{display: none;}
+    img#pc{display: block;}
+    img#tv{display: block;}   
 }
